@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162137973-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-162137973-1');
+    </script>
     <title>knowledge tube</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><a href="index.html">지식 튜브</a></h1>
-    <nav>
-        <ul>
+    <h1><a href="index.html"><img src="KnowTube-logo.png" width="20%"></a></h1>
+    <div id="grid">
+        <nav>
+            <ul>
            <strong>Main</strong><br>
            <li><a href="index.html">Home</a></li>
            <li><a href="hot.html">Hot</a></li>
@@ -32,9 +43,59 @@
            <li><a href="society.html">Society</a></li>
            <br>
            <li><a href="setting.html"><strong>Setting</strong></a></li>
-        </ul>
-    </nav>
-    <h3> 세상의 모든 지식 동영상</h3>
-    <img src="도서관 비밀의 문.jpg" width="100%">
+            </ul>
+        </nav>
+        <div>
+            <h2>세상의 모든 지식 동영상</h2>
+            <video src="전구.mp4" width="45%" autoplay controls loop muted></video>
+            <img src="도서관 비밀의 문.jpg" width="40%">
+
+            <h3><a href="hot.html">추천 동영상+</a></h3>
+
+            <h3><a href="science.html">과학+</a></h3>
+            <video src="지구.mp4" width="45%" controls loop></video>
+
+            <h3><a href="history.html">역사+</a></h3>
+            <video src="전쟁.mp4" width="45%" controls loop></video>
+
+            <h3><a href="language.html">언어+</a></h3>
+            <video src="알파벳.mp4" width="45%" controls loop></video>
+
+            <h3><a href="art.html">예술+</a></h3>
+            <video src="미술.mp4" width="45%" controls loop></video>
+
+            <h3><a href="music.html">음악+</a></h3>
+            <video src="피아노.mp4" width="45%" controls loop></video>
+
+            <h3><a href="math.html">수학+</a></h3>
+            <video src="수학.mp4" width="45%" controls loop></video>
+
+            <h3><a href="literature.html">문학+</a></h3>
+            <video src="책.mp4" width="45%" controls loop></video>
+
+            <h3><a href="knowhow.html">노하우+</a></h3>
+            <video src="직장.mp4" width="45%" controls loop></video>
+
+            <h3><a href="game.html">게임+</a></h3>
+            <video src="키보드 마우스.mp4" width="45%" controls loop></video>
+
+            <h3><a href="society.html">사회+</a></h3>
+            <video src="사람들.mp4" width="45%" controls loop></video>
+        </div>   
+    </div>     
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5e7fc75035bcbb0c9aab7141/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <br>
 </body>
 </html>

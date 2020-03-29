@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162137973-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-162137973-1');
+    </script>   
     <title>knowledge tube-science</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><a href="index.html">지식 튜브</a></h1>
-    <nav>
+    <h1><a href="index.html"><img src="KnowTube-logo.png" width="20%"></a></h1>
+    <div id="grid">
+        <nav>
         <ul>
            <strong>Main</strong><br>
            <li><a href="index.html">Home</a></li>
@@ -33,8 +44,11 @@
            <br>
            <li><a href="setting.html"><strong>Setting</strong></a></li>
         </ul>
-    </nav>
-    <h2><a href="science.html">Science</a></h2>
-    <video src="지구.mp4" width="65%" autoplay controls loop muted></video>
+        </nav>
+        <div>
+            <h2><a href="science.html">Science</a></h2>
+            <video src="지구.mp4" width="65%" autoplay controls loop muted></video>
+        </div>    
+    </div>    
 </body>
 </html>

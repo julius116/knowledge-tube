@@ -1,0 +1,37 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+h1 {
+    font-size: 250%;
+    text-align: left;
+    border-bottom: white 1px solid;
+    padding: 0px;
+    margin: 0%;
+    background-color: white;
+}
+h3 {
+    border-top: rgb(200, 200, 200) 5px solid;
+    padding: 10px;
+}
+nav {
+    border-right: solid white 1px;
+    width: 100px;
+    padding: 30px;
+    margin: 0;
+    background-color: white;
+}
+#grid ul {
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+    font-size: 120%;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: whitesmoke;
+}
+video {
+    margin: 10px;
+}
